@@ -1,4 +1,10 @@
-vvoid binary_search(int min,int max,int key,int[]ar) {
+package array;
+
+import java.util.Scanner;
+
+public class RecursionBinarySearch {
+	
+	void binary_search(int min,int max,int key,int[]ar) {
 		
 		boolean b=true;
 		if(b==true){
@@ -35,3 +41,6 @@ vvoid binary_search(int min,int max,int key,int[]ar) {
         r.binary_search(0  , ar.length-1, key , ar);
                   //    min ,   max     , key ,array
 	}
+
+}
+
